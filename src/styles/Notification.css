@@ -1,0 +1,47 @@
+.unreadNotif {
+    background-color: var(--light-grayish-blue1) !important;
+    font-size: 13px !important;
+}
+
+.readNotif {
+    background-color: var(--white) !important;
+    font-size: 13px !important;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.name {
+    color: black;
+}
+
+.name:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.subText {
+    position: relative;
+}
+
+.subText:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.subText[data-status="unread"]::after {
+    content: "";
+    border-radius: 50%;
+    background-color: var(--red);
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.subNotification:hover{
+    background-color: var(--light-grayish-blue1);
+    border-color: var(--light-grayish-blue1);
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: var(--light-grayish-blue1);
+  height: 100vh !important;
+  @media screen and (max-width:500px) {
+    background-color: var(--white);
+
+}
+}
+

@@ -1,0 +1,24 @@
+.badge {
+    background-color: var(--blue) !important;
+}
+
+.read:hover {
+    color: var(--blue) !important;
+    cursor: pointer;
+}
+
+.cardContainer {
+    width: 50vw;
+    padding: 3rem;
+
+    @media screen and (max-width:500px) {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+    }
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}

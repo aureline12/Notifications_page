@@ -1,0 +1,1 @@
+This is a frontend mentor challenge that consisted to build a notification page with react.js
